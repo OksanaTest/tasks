@@ -15,6 +15,11 @@ public class Main {
         System.out.println(isArraySorted.isArraySorted(mass1));
         System.out.println(isArraySorted.isArraySorted(mass));
 
+        int[] mass2 = {0,5,5,7,2,5,4,5,5};
+        HowManyTimeSomeValueInclude howManyTimeSomeValueInclude = new HowManyTimeSomeValueInclude();
+        System.out.println("5 is present in the array " + howManyTimeSomeValueInclude.howManyTimeSomeValueInclude(mass2) + " times");
+        System.out.println("5 is present in the array " + howManyTimeSomeValueInclude.howManyTimeSomeValueInclude(mass1) + " times");
+        System.out.println("5 is present in the array " + howManyTimeSomeValueInclude.howManyTimeSomeValueInclude(mass) + " times");
 
     }
 }

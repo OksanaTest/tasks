@@ -10,6 +10,8 @@ public class CompareQuantityNegativeAndPositiveValuesTests {
     private int[] mass2 = {3,5,6,23,56,78,8888};
     private int[] mass3 = {-12,56,56,67666,-34,-67, -45, 67};
     private int[] mass4 = {};
+    private int[] mass5 = {-4,-56,89,345,-567,-2398};
+    private int[] mass6 = {34,56,-34,56,-87,-47,56,56,2323,-959595};
 
     @Test
     public void compare_quantity_only_zero_in_array() throws Exception {
@@ -34,6 +36,16 @@ public class CompareQuantityNegativeAndPositiveValuesTests {
     @Test
     public void compare_qauntity_with_empty_array() throws Exception {
         assertEquals(compareQuantityNegativeAndPositiveValues.compareQuantity(mass4), "Array is empty");
+    }
+
+    @Test
+    public void compare_qauntity_more_negative(){
+        assertEquals(compareQuantityNegativeAndPositiveValues.compareQuantity(mass5), "negative");
+    }
+
+    @Test
+    public void compare_qauntity_more_positive(){
+        assertEquals(compareQuantityNegativeAndPositiveValues.compareQuantity(mass6), "positive");
     }
 
 }

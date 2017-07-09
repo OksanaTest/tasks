@@ -1,5 +1,3 @@
-package net;
-
 public class HowManyTimeSomeValueInclude {
     public Integer howManyTimeSomeValueInclude(int[] mass){
         int k = 0;

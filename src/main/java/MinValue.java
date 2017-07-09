@@ -1,5 +1,3 @@
-package net;
-
 public class MinValue {
     public Integer minValue(int[] mass){
         int min = mass[0];

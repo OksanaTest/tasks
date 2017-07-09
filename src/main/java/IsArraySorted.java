@@ -1,5 +1,3 @@
-package net;
-
 public class IsArraySorted {
     public boolean isArraySorted(int[] mass){
         boolean k = false;

@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] mass = {1,0,5,-45,-233,-45};
+        int[] mass = {2};
 
         MinValue minValue = new MinValue();
         System.out.println(minValue.minValue(mass));
